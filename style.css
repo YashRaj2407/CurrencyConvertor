@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.amount p,
+.from p,
+.to p {
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+}
+
+.amount input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+select {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+img {
+  width: 32px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.msg {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0066ff;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004bb5;
+}
+
+.fa-arrow-right-arrow-left {
+  font-size: 1.5rem;
+  color: #0066ff;
+  cursor: pointer;
+}
